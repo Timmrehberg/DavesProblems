@@ -22,6 +22,8 @@ namespace Problems
              Console.WriteLine(pie);
              p3.BMO();
             p4.Checknumbers();
+            Console.ReadKey();
+            
             Prob5 p5 = new Prob5();
             p5.Dance();
 

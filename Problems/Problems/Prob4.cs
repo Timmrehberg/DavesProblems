@@ -16,7 +16,6 @@ namespace Problems
             ListA.Add(2);
             ListA.Add(3);
             
-            for (int i = 0; i < ListA.Count; i++)
             {
                
 
@@ -27,8 +26,7 @@ namespace Problems
                 ListA.Insert(2, 1);
                 ListA.RemoveAt(2);
                
-                i += 5;
-                
+               
 
                 foreach (int item in ListA)
                 {

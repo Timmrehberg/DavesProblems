@@ -16,9 +16,9 @@ namespace Problems
                       *  *        * 
                         *      * 
                     *  *  * 
-                  *    *     
-                *      *       
-                        * 
+                  *    *               *  *
+                *      *  * * * * *>    *  *
+                        *              *  *
                     *      * 
                   *          * 
                 *              * 
@@ -36,7 +36,7 @@ namespace Problems
                         *      
                     *  *  * 
                   *    *     *
-                *      *       *
+                *      *  * * * >    
                         * 
                     *      * 
                   *          * 
@@ -45,7 +45,8 @@ namespace Problems
             *                      * ");
         }
         public void Dance() {
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 5
+                ; i++)
             {
                 if (i % 2 == 0)
                 {

@@ -17,6 +17,7 @@ namespace Problems
             Stringlist.Add(3);
             Stringlist.Add(4);
             Stringlist.Add(4);
+            Stringlist.Add(4);
             return Stringlist.Count();
         }
        
